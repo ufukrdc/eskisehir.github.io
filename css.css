@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Ust_kisim{
+    min-height: 81vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(resimler/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    padding: 1% 1%;
+}
+nav img{
+    width: 100px;
+}
+.yan_menu
+{
+    flex: 1;
+    text-align: right;
+}
+.yan_menu ul li{
+    display: block;
+    padding: 20px 1px;
+}
+.yan_menu ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.yazi{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.yazi h1{
+    font-size: 150px;
+}
+.yazi p{
+    margin: 20px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.tus {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.tus:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+}
+
+
+@media(max-width: 700px)
+{
+   .nav-links ul li
+    {
+        display: block;
+    }
+    .nav-links
+    {
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer; 
+    }
+    .text-box h1{
+        font-size: 20px;
+    }
+}
+
+.manevi{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.r_icin{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;  
+}
+  
+.manevi_c{
+    flex-basis: 30%;
+    background: #c0c0c0;
+    margin-bottom: 5%;
+}
+
+.manevi p{
+    color: #000;
+}
+
+.manevi_c img{
+    width: 100%;
+}
+.manevi_c h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.alt_kisim{
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.ust_kisim2{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(resimler/banner.png);
+    background-position: center;
+}
+.ust_kisim2 h1{
+    margin-top: 100px;
+}
+.tarih{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(247, 247, 247);
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: red;
+}
+
+.tarih_c p{
+    padding: 40px 0 40px;
+    color: rgb(54, 54, 54);
+}
+.tarih_c h1{
+    padding-top: 160;
+}
+
+
+.tus.red-btn{
+    border: 1px red;
+    background: red;
+    color: #ffffff;
+}
+
+
+.konum{
+    width: 95%;
+    margin: auto;
+    padding: 60px 0;
+}
+.konum iframe{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
